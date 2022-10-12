@@ -1,0 +1,5 @@
+{
+  "spaceId": "destination/import space id",
+  "managementToken": "destination/import space management token",
+  "contentFile": "space/export.json"
+}
