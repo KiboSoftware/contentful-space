@@ -1,0 +1,3935 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "kiboProduct",
+        "type": "ContentType",
+        "createdAt": "2021-11-17T19:43:03.722Z",
+        "updatedAt": "2021-11-17T19:43:03.923Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-11-17T19:43:03.923Z",
+        "firstPublishedAt": "2021-11-17T19:43:03.923Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7dRVfKdqcMHRYJwRaifUJn"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7dRVfKdqcMHRYJwRaifUJn"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7dRVfKdqcMHRYJwRaifUJn"
+          }
+        }
+      },
+      "displayField": null,
+      "name": "Kibo Product",
+      "description": "",
+      "fields": [
+        {
+          "id": "kiboStandardProduct",
+          "name": "Kibo Standard Product",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "smallBanner",
+        "type": "ContentType",
+        "createdAt": "2022-09-12T07:03:58.776Z",
+        "updatedAt": "2022-09-12T07:46:14.865Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2022-09-12T07:46:14.865Z",
+        "firstPublishedAt": "2022-09-12T07:03:59.628Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Small Banner",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            },
+            {
+              "size": {
+                "min": null,
+                "max": 100
+              },
+              "message": "Must be less than 100 characters"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            },
+            {
+              "size": {
+                "min": null,
+                "max": 100
+              },
+              "message": "Must be less than 100 characters"
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "callToActionLink",
+          "name": "Call To Action Link",
+          "type": "Object",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "heroCarouselItem",
+        "type": "ContentType",
+        "createdAt": "2022-09-12T08:21:35.280Z",
+        "updatedAt": "2022-09-12T08:21:36.164Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2022-09-12T08:21:36.164Z",
+        "firstPublishedAt": "2022-09-12T08:21:36.164Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Hero Carousel Item",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "buttonLink",
+          "name": "Button Link",
+          "type": "Object",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "desktopImage",
+          "name": "Desktop Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "mobileImage",
+          "name": "Mobile Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "imageAltText",
+          "name": "Image Alt Text",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "promoBlock",
+        "type": "ContentType",
+        "createdAt": "2022-09-12T08:41:26.651Z",
+        "updatedAt": "2022-09-12T08:41:27.530Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2022-09-12T08:41:27.530Z",
+        "firstPublishedAt": "2022-09-12T08:41:27.530Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Promo Block",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "subTitle",
+          "name": "Sub Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "links",
+          "name": "Links",
+          "type": "Object",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "largePromoBlocks",
+        "type": "ContentType",
+        "createdAt": "2022-09-12T08:52:37.831Z",
+        "updatedAt": "2022-09-15T04:19:42.974Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2022-09-15T04:19:42.974Z",
+        "firstPublishedAt": "2022-09-12T08:52:38.825Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        }
+      },
+      "displayField": null,
+      "name": "Large Promo Blocks",
+      "description": "Add two large promo blocks",
+      "fields": [
+        {
+          "id": "promoBlocks",
+          "name": "Promo Blocks",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 2
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "promoBlock"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "smallPromoBlocks",
+        "type": "ContentType",
+        "createdAt": "2022-09-12T09:13:50.270Z",
+        "updatedAt": "2022-09-15T04:20:04.015Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2022-09-15T04:20:04.015Z",
+        "firstPublishedAt": "2022-09-12T09:13:51.098Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        }
+      },
+      "displayField": null,
+      "name": "Small Promo Blocks",
+      "description": "Add four small promo blocks",
+      "fields": [
+        {
+          "id": "promoBlocks",
+          "name": "Promo Blocks",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 4
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "promoBlock"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "homePage",
+        "type": "ContentType",
+        "createdAt": "2022-09-12T09:19:25.875Z",
+        "updatedAt": "2022-10-12T10:21:29.660Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 53,
+        "publishedAt": "2022-10-12T10:21:29.660Z",
+        "firstPublishedAt": "2022-09-12T09:19:26.673Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "publishedCounter": 27,
+        "version": 54,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Home Page",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "smallBanner",
+          "name": "Small Banner",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "smallBanner"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "heroCarousel",
+          "name": "Hero Carousel",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "heroCarousel"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "homePageProducts",
+          "name": "Home Page Products",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 2
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "homePageProducts"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "largePromoBlocks",
+          "name": "Large Promo Blocks",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "largePromoBlocks"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "smallPromoBlocks",
+          "name": "Small Promo Blocks",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "smallPromoBlocks"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "heroCarousel",
+        "type": "ContentType",
+        "createdAt": "2022-09-12T09:26:16.304Z",
+        "updatedAt": "2022-10-07T20:54:10.716Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2022-10-07T20:54:10.716Z",
+        "firstPublishedAt": "2022-09-12T09:26:17.039Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7dRVfKdqcMHRYJwRaifUJn"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7dRVfKdqcMHRYJwRaifUJn"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Hero Carousel",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heroCarouselItem",
+          "name": "Hero Carousel Item",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "min": null,
+                "max": 1
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "heroCarouselItem"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "recommendations",
+        "type": "ContentType",
+        "createdAt": "2022-09-14T10:10:54.783Z",
+        "updatedAt": "2022-09-14T10:17:37.897Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2022-09-14T10:17:37.897Z",
+        "firstPublishedAt": "2022-09-14T10:10:55.834Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Recommendations",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "productRecommendations",
+          "name": "Product Recommendations",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "customersAlsoBought",
+        "type": "ContentType",
+        "createdAt": "2022-09-14T10:20:24.883Z",
+        "updatedAt": "2022-09-14T10:20:25.643Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2022-09-14T10:20:25.643Z",
+        "firstPublishedAt": "2022-09-14T10:20:25.643Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Customers Also Bought",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "customersAlsoBought",
+          "name": "Customers Also Bought",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "productDetails",
+        "type": "ContentType",
+        "createdAt": "2022-09-14T10:27:02.521Z",
+        "updatedAt": "2022-09-14T10:55:27.240Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2022-09-14T10:55:27.240Z",
+        "firstPublishedAt": "2022-09-14T10:27:03.372Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Product Details",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "recommendations",
+          "name": "Recommendations",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "recommendations"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "customersAlsoBought",
+          "name": "Customers Also Bought",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "customersAlsoBought"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "homePageProducts",
+        "type": "ContentType",
+        "createdAt": "2022-09-16T09:31:48.459Z",
+        "updatedAt": "2022-09-16T10:06:57.593Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2022-09-16T10:06:57.593Z",
+        "firstPublishedAt": "2022-09-16T09:31:49.221Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        },
+        "publishedCounter": 7,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7hrmr40XS2etrIqB3sn5MQ"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Home Page Product Item",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "products",
+          "name": "Products",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 5,
+        "createdAt": "2021-11-17T19:43:04.008Z",
+        "createdBy": {
+          "sys": {
+            "id": "7dRVfKdqcMHRYJwRaifUJn",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-01-04T15:37:30.633Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7dRVfKdqcMHRYJwRaifUJn",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "kiboProduct",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "kiboStandardProduct",
+          "widgetId": "4F6cpGJEuEzZDPTno9nq1f",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 12,
+        "createdAt": "2022-09-12T07:03:59.742Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-09-12T07:46:16.534Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "smallBanner",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "callToActionLink",
+          "widgetId": "objectEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2022-09-12T08:21:36.251Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-09-12T08:21:37.568Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "heroCarouselItem",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "buttonLink",
+          "widgetId": "objectEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "desktopImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "mobileImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "imageAltText",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2022-09-12T08:41:27.589Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-09-12T08:41:28.646Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "promoBlock",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subTitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "links",
+          "widgetId": "objectEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 8,
+        "createdAt": "2022-09-12T08:52:38.889Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-09-15T04:19:44.104Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "largePromoBlocks",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "promoBlocks",
+          "widgetId": "entryCardsEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2022-09-12T09:13:51.160Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-09-15T04:20:05.145Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "smallPromoBlocks",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "promoBlocks",
+          "widgetId": "entryCardsEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 54,
+        "createdAt": "2022-09-12T09:19:26.732Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-10-12T10:21:33.063Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "homePage",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "smallBanner",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroCarousel",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "homePageProducts",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "largePromoBlocks",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "smallPromoBlocks",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 8,
+        "createdAt": "2022-09-12T09:26:17.107Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-10-07T20:54:11.305Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7dRVfKdqcMHRYJwRaifUJn",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "heroCarousel",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroCarouselItem",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 8,
+        "createdAt": "2022-09-14T10:10:55.903Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-09-14T10:17:39.595Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "recommendations",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "productRecommendations",
+          "widgetId": "4F6cpGJEuEzZDPTno9nq1f",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2022-09-14T10:20:25.701Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-09-14T10:20:27.381Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "customersAlsoBought",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "customersAlsoBought",
+          "widgetId": "4F6cpGJEuEzZDPTno9nq1f",
+          "widgetNamespace": "app"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2022-09-14T10:27:03.427Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-09-14T10:55:28.343Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "productDetails",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "recommendations",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "customersAlsoBought",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "lwpe3gpbp67q",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 14,
+        "createdAt": "2022-09-16T09:31:49.464Z",
+        "createdBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-09-16T10:06:59.195Z",
+        "updatedBy": {
+          "sys": {
+            "id": "7hrmr40XS2etrIqB3sn5MQ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "homePageProducts",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "products",
+          "widgetId": "4F6cpGJEuEzZDPTno9nq1f",
+          "widgetNamespace": "app"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "72f9CKBDC5V9KyspuJ6QpE",
+        "type": "Entry",
+        "createdAt": "2021-11-17T20:16:53.570Z",
+        "updatedAt": "2021-11-17T20:16:53.570Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "kiboProduct"
+          }
+        }
+      },
+      "fields": {
+        "kiboStandardProduct": {
+          "en-US": [
+            "MS-CYCL-010"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "5S9z53SJWrCLsuX1PKkzMz",
+        "type": "Entry",
+        "createdAt": "2021-11-23T17:46:30.826Z",
+        "updatedAt": "2021-11-23T17:46:30.826Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "kiboProduct"
+          }
+        }
+      },
+      "fields": {
+        "kiboStandardProduct": {
+          "en-US": [
+            "MS-JKT-007"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "hH5x03Uvvd3gTYu2GXOE2",
+        "type": "Entry",
+        "createdAt": "2022-02-14T17:50:19.871Z",
+        "updatedAt": "2022-02-14T17:50:19.871Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "kiboProduct"
+          }
+        }
+      },
+      "fields": {
+        "kiboStandardProduct": {
+          "en-US": [
+            "BackP_001",
+            "BC001"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "6f0Hy5wmXegiOma79aJAxP",
+        "type": "Entry",
+        "createdAt": "2022-09-12T07:47:18.651Z",
+        "updatedAt": "2022-10-12T11:54:37.105Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 6,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "smallBanner"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Save up to 55% "
+        },
+        "subtitle": {
+          "en-US": "Valid until tomorrow!"
+        },
+        "callToActionLink": {
+          "en-US": {
+            "URL": "/category/deals",
+            "Title": "Shop Now"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "6QF1UJIn7Ye7M4EdKOyllb",
+        "type": "Entry",
+        "createdAt": "2022-09-12T08:28:39.426Z",
+        "updatedAt": "2022-10-07T20:14:24.559Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 5,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "heroCarouselItem"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Up to 65% off Outdoor Gear"
+        },
+        "subtitle": {
+          "en-US": "Plus earn 2X Bonus Points"
+        },
+        "description": {
+          "en-US": "Valid until 2024!"
+        },
+        "buttonLink": {
+          "en-US": {
+            "URL": "/category/deals",
+            "Title": "Shop Deals"
+          }
+        },
+        "desktopImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "HBGYslYQdoBrtxdmiyjw4"
+            }
+          }
+        },
+        "mobileImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7leDTRTcT2q2tt848TfnxK"
+            }
+          }
+        },
+        "imageAltText": {
+          "en-US": "Outdoors!"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "4Ux3MgCVKzSGIZsTd29Qg5",
+        "type": "Entry",
+        "createdAt": "2022-09-12T08:46:06.787Z",
+        "updatedAt": "2022-09-12T08:46:06.787Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "promoBlock"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Up to 50% off Running Gear"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1SU1e6vaD4puHLZpWt0wFj"
+            }
+          }
+        },
+        "subTitle": {
+          "en-US": "Save on select footwear, equipment and more."
+        },
+        "links": {
+          "en-US": [
+            {
+              "Title": "Top Deals",
+              "URL": "/category/ClothesShoes"
+            },
+            {
+              "Title": "Footwear Deals",
+              "URL": "/category/ClothesShoes"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "5ZimgBodrvBx0ifTHvML1Z",
+        "type": "Entry",
+        "createdAt": "2022-09-12T08:56:44.987Z",
+        "updatedAt": "2022-09-12T08:56:44.987Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "promoBlock"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Up to 50% off Nike Gear!"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "IZCrhhCnG4S1Bha7Zaci8"
+            }
+          }
+        },
+        "subTitle": {
+          "en-US": "Save big on Nike footwear and Clothing!"
+        },
+        "links": {
+          "en-US": [
+            {
+              "Title": "Shop Men",
+              "URL": "/category/men"
+            },
+            {
+              "Title": "Shop Women",
+              "URL": "/category/women"
+            },
+            {
+              "Title": "Shop Kid",
+              "URL": "/category/kid"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "7KVsxv8i6xHxb7M4hah9KD",
+        "type": "Entry",
+        "createdAt": "2022-09-12T09:02:35.041Z",
+        "updatedAt": "2022-09-12T09:02:35.041Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "promoBlock"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Dress for Any Occasion"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1KviKRLYw8mcA5KHmVeu4b"
+            }
+          }
+        },
+        "subTitle": {
+          "en-US": "Dress your best and shine brighter than the sun"
+        },
+        "links": {
+          "en-US": [
+            {
+              "Title": "Mens",
+              "URL": "/category/mens"
+            },
+            {
+              "Title": "Womens",
+              "URL": "/category/womens"
+            },
+            {
+              "Title": "Kids",
+              "URL": "/category/kids"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "3ZqxZuSw49RqAe4laLrnJT",
+        "type": "Entry",
+        "createdAt": "2022-09-12T09:04:27.198Z",
+        "updatedAt": "2022-09-12T09:04:27.198Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "promoBlock"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Get Your Golf On"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "32t0ODnj9qYGabVmGKacYi"
+            }
+          }
+        },
+        "subTitle": {
+          "en-US": "Tee up and bring your A-game"
+        },
+        "links": {
+          "en-US": [
+            {
+              "Title": "Golf Shirts",
+              "URL": "/category/golf-shirts"
+            },
+            {
+              "Title": "Golf Pants",
+              "URL": "/category/golf-pants"
+            },
+            {
+              "Title": "Golf Footwear",
+              "URL": "/category/golf-footwear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "1iHYMwp1MEWLTo7gPLUTfh",
+        "type": "Entry",
+        "createdAt": "2022-09-12T09:07:32.834Z",
+        "updatedAt": "2022-09-12T09:07:32.834Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "promoBlock"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Power to a Healthier You"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6UR3PcFE9v7YHxFMM1jd6Y"
+            }
+          }
+        },
+        "subTitle": {
+          "en-US": "Clothing and gear for strength and cardio"
+        },
+        "links": {
+          "en-US": [
+            {
+              "Title": "Cardio Workout",
+              "URL": "/category/cardio-workout"
+            },
+            {
+              "Title": "Fitness Deals",
+              "URL": "/category/fitness-deals"
+            },
+            {
+              "Title": "Strength training",
+              "URL": "/category/strength-training"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "TvnUOQDSAaOnJXdfnLlyf",
+        "type": "Entry",
+        "createdAt": "2022-09-12T09:10:05.156Z",
+        "updatedAt": "2022-09-12T09:10:05.156Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "promoBlock"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Plenty to Play With"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "18lG7jG8uKPTXZEw9t869D"
+            }
+          }
+        },
+        "subTitle": {
+          "en-US": "Unwind this summer with deals on top gear"
+        },
+        "links": {
+          "en-US": [
+            {
+              "Title": "Beach",
+              "URL": "/category/beach"
+            },
+            {
+              "Title": "BBQ",
+              "URL": "/category/bbq"
+            },
+            {
+              "Title": "Hiking",
+              "URL": "/category/hiking"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "36dHFs64WjAGI0FrwOSZLe",
+        "type": "Entry",
+        "createdAt": "2022-09-12T09:14:40.067Z",
+        "updatedAt": "2022-09-12T09:14:40.067Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "smallPromoBlocks"
+          }
+        }
+      },
+      "fields": {
+        "promoBlocks": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "TvnUOQDSAaOnJXdfnLlyf"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1iHYMwp1MEWLTo7gPLUTfh"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3ZqxZuSw49RqAe4laLrnJT"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7KVsxv8i6xHxb7M4hah9KD"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "5cV152dpYEf9G4o9r8stAm",
+        "type": "Entry",
+        "createdAt": "2022-09-12T09:16:43.764Z",
+        "updatedAt": "2022-09-12T09:16:43.764Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "largePromoBlocks"
+          }
+        }
+      },
+      "fields": {
+        "promoBlocks": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5ZimgBodrvBx0ifTHvML1Z"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4Ux3MgCVKzSGIZsTd29Qg5"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "5NLoGQBGPLFORD6ZWQtmP5",
+        "type": "Entry",
+        "createdAt": "2022-09-12T09:20:41.052Z",
+        "updatedAt": "2022-10-07T20:02:51.525Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 10,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "homePage"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Home Page Content"
+        },
+        "smallBanner": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6f0Hy5wmXegiOma79aJAxP"
+            }
+          }
+        },
+        "heroCarousel": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5qwaoV27bjLVHQb2sM9kLM"
+            }
+          }
+        },
+        "homePageProducts": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6DDVIDccMiGFHN6Y8nV7oG"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5wcYbw6bup2uQ4gtB4xPK9"
+              }
+            }
+          ]
+        },
+        "largePromoBlocks": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5cV152dpYEf9G4o9r8stAm"
+            }
+          }
+        },
+        "smallPromoBlocks": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "36dHFs64WjAGI0FrwOSZLe"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "5qwaoV27bjLVHQb2sM9kLM",
+        "type": "Entry",
+        "createdAt": "2022-09-12T09:26:51.609Z",
+        "updatedAt": "2022-09-12T09:26:51.609Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "heroCarousel"
+          }
+        }
+      },
+      "fields": {
+        "heroCarouselItem": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6QF1UJIn7Ye7M4EdKOyllb"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "3t9xRH9shj7x26GonoZw7b",
+        "type": "Entry",
+        "createdAt": "2022-09-14T10:18:40.451Z",
+        "updatedAt": "2022-09-14T10:18:40.451Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "recommendations"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Product Recommendations"
+        },
+        "productRecommendations": {
+          "en-US": [
+            "BackP_001",
+            "Hammock_015",
+            "BackP_002",
+            "HKFT_018",
+            "SG_011",
+            "DOG_007"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "4egsdG974XlkOHt4QUyflh",
+        "type": "Entry",
+        "createdAt": "2022-09-14T10:24:24.407Z",
+        "updatedAt": "2022-09-14T10:24:24.407Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "customersAlsoBought"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Customers Also Bought"
+        },
+        "customersAlsoBought": {
+          "en-US": [
+            "HKFT_019",
+            "Hammock_016",
+            "DOG_008",
+            "BackP_003",
+            "Hammock_019",
+            "DOG_012"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "XSA2pPbPiC2drEJplUg8v",
+        "type": "Entry",
+        "createdAt": "2022-09-14T10:29:37.981Z",
+        "updatedAt": "2022-09-14T10:29:37.981Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "productDetails"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "HikePants_009"
+        },
+        "recommendations": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "3t9xRH9shj7x26GonoZw7b"
+            }
+          }
+        },
+        "customersAlsoBought": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "4egsdG974XlkOHt4QUyflh"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "5awwCUSr9hsBwJH5ikvwhg",
+        "type": "Entry",
+        "createdAt": "2022-09-14T10:34:32.941Z",
+        "updatedAt": "2022-09-14T10:34:32.941Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "recommendations"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Product Recommendations"
+        },
+        "productRecommendations": {
+          "en-US": [
+            "HKFT_024",
+            "BackP_006",
+            "Hammock_020",
+            "SleepBag_005",
+            "HKFT_025",
+            "Drybag_001"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "1MioRLgCxTBWCGO9a2BHT5",
+        "type": "Entry",
+        "createdAt": "2022-09-14T10:35:38.867Z",
+        "updatedAt": "2022-09-14T10:35:38.867Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "customersAlsoBought"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Customers Also Bought"
+        },
+        "customersAlsoBought": {
+          "en-US": [
+            "Hammock_021",
+            "BackP_007",
+            "HKFT_026",
+            "SleepBag_006",
+            "Hammock_022",
+            "Drybag_002"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "7HgKyW0AgdJn9qjncNvNN7",
+        "type": "Entry",
+        "createdAt": "2022-09-14T10:35:58.312Z",
+        "updatedAt": "2022-09-14T10:35:58.312Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "productDetails"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "BackP_004"
+        },
+        "recommendations": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "5awwCUSr9hsBwJH5ikvwhg"
+            }
+          }
+        },
+        "customersAlsoBought": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "1MioRLgCxTBWCGO9a2BHT5"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "5wcYbw6bup2uQ4gtB4xPK9",
+        "type": "Entry",
+        "createdAt": "2022-09-16T09:39:23.894Z",
+        "updatedAt": "2022-10-07T20:27:16.025Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 12,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "homePageProducts"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "New Products!"
+        },
+        "products": {
+          "en-US": [
+            "SleepBag_010",
+            "PFD_001",
+            "Hats_004"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "6DDVIDccMiGFHN6Y8nV7oG",
+        "type": "Entry",
+        "createdAt": "2022-09-16T09:40:13.256Z",
+        "updatedAt": "2022-10-07T19:44:51.172Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 5,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "homePageProducts"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Top-selling products"
+        },
+        "products": {
+          "en-US": [
+            "SleepBag_010",
+            "BackP_002",
+            "HKFT_032",
+            "BackP_012",
+            "Drybag_007",
+            "Hammock_027",
+            "HKFT_033",
+            "HKFT_019"
+          ]
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "HBGYslYQdoBrtxdmiyjw4",
+        "type": "Asset",
+        "createdAt": "2022-09-12T08:26:47.015Z",
+        "updatedAt": "2022-09-12T08:26:47.015Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "hero_banner_D"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/HBGYslYQdoBrtxdmiyjw4/ce01f0d820d371cad32bd793462731ee/hero_banner_D.jpeg",
+            "details": {
+              "size": 3831663,
+              "image": {
+                "width": 5472,
+                "height": 3648
+              }
+            },
+            "fileName": "hero_banner_D.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "7leDTRTcT2q2tt848TfnxK",
+        "type": "Asset",
+        "createdAt": "2022-09-12T08:28:07.415Z",
+        "updatedAt": "2022-09-12T08:28:07.415Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "hero_banner"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/7leDTRTcT2q2tt848TfnxK/954bf375d37b56a00e38cf2473444de7/hero_banner.jpg",
+            "details": {
+              "size": 8394588,
+              "image": {
+                "width": 3648,
+                "height": 5472
+              }
+            },
+            "fileName": "hero_banner.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "1KviKRLYw8mcA5KHmVeu4b",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.734Z",
+        "updatedAt": "2022-09-14T05:13:05.734Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "summer look"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/1KviKRLYw8mcA5KHmVeu4b/fafdbe223da35eaad13beeec47e77171/summer_look.jpg",
+            "details": {
+              "size": 5694463,
+              "image": {
+                "width": 4910,
+                "height": 7365
+              }
+            },
+            "fileName": "summer_look.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "2o4cIy5gzoCHisw8NqFHCn",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.742Z",
+        "updatedAt": "2022-09-14T05:13:05.742Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "signup and save"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/2o4cIy5gzoCHisw8NqFHCn/f40708808c6f46afd2aebe5bf55ee5e5/signup_and_save.jpg",
+            "details": {
+              "size": 601145,
+              "image": {
+                "width": 4592,
+                "height": 3064
+              }
+            },
+            "fileName": "signup_and_save.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "4g27Pyc1uXuYQS4TQl8z03",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.747Z",
+        "updatedAt": "2022-09-14T05:13:05.747Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "sustainable shoe"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/4g27Pyc1uXuYQS4TQl8z03/022d1380a07ccb73cd8b6c2af9632a09/sustainable_shoe.jpeg",
+            "details": {
+              "size": 78967,
+              "image": {
+                "width": 1333,
+                "height": 1130
+              }
+            },
+            "fileName": "sustainable_shoe.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "sQFRNuyaIR6N4ALBZyYEp",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.753Z",
+        "updatedAt": "2022-09-14T05:13:05.753Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "running shorts"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/sQFRNuyaIR6N4ALBZyYEp/1a63e2e4032916d6e6fd326aaf0c9bfe/running_shorts.jpeg",
+            "details": {
+              "size": 179263,
+              "image": {
+                "width": 2000,
+                "height": 2000
+              }
+            },
+            "fileName": "running_shorts.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "1SU1e6vaD4puHLZpWt0wFj",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.758Z",
+        "updatedAt": "2022-09-14T05:13:05.758Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "running gear"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/1SU1e6vaD4puHLZpWt0wFj/017a482029603408077d5641a210cb54/running_gear.jpg",
+            "details": {
+              "size": 1403677,
+              "image": {
+                "width": 4427,
+                "height": 2947
+              }
+            },
+            "fileName": "running_gear.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "3zlcm4x4Ogt6yzYrgwdfMo",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.763Z",
+        "updatedAt": "2022-09-14T05:13:05.763Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "opentop kayak"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/3zlcm4x4Ogt6yzYrgwdfMo/307a734b9804a82d4058a7d1a4b56969/opentop_kayak.jpeg",
+            "details": {
+              "size": 935808,
+              "image": {
+                "width": 2000,
+                "height": 2000
+              }
+            },
+            "fileName": "opentop_kayak.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "3qwkxZ6eMF2H5qDk0UoiOy",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.768Z",
+        "updatedAt": "2022-09-14T05:13:05.768Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "hero banner"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/3qwkxZ6eMF2H5qDk0UoiOy/e50e89ed3e6b73bcd5f14292e284d3bb/hero_banner.jpg",
+            "details": {
+              "size": 3732605,
+              "image": {
+                "width": 3648,
+                "height": 5472
+              }
+            },
+            "fileName": "hero banner.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "IZCrhhCnG4S1Bha7Zaci8",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.773Z",
+        "updatedAt": "2022-09-14T05:13:05.773Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "Nike gear"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/IZCrhhCnG4S1Bha7Zaci8/866bb9841d8f9144aacc063981cb0b92/Nike_gear.jpg",
+            "details": {
+              "size": 3467069,
+              "image": {
+                "width": 4000,
+                "height": 6000
+              }
+            },
+            "fileName": "Nike_gear.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "6UR3PcFE9v7YHxFMM1jd6Y",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.778Z",
+        "updatedAt": "2022-09-14T05:13:05.778Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "power through"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/6UR3PcFE9v7YHxFMM1jd6Y/89c68820ea24826171cb3110e8177635/power_through.jpg",
+            "details": {
+              "size": 3612669,
+              "image": {
+                "width": 4933,
+                "height": 3289
+              }
+            },
+            "fileName": "power_through.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "18lG7jG8uKPTXZEw9t869D",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.783Z",
+        "updatedAt": "2022-09-14T05:13:05.783Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "plenty to play with"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/18lG7jG8uKPTXZEw9t869D/9e643554f1c8afc7347b4d49d0223014/plenty_to_play_with.jpg",
+            "details": {
+              "size": 1450001,
+              "image": {
+                "width": 2257,
+                "height": 2821
+              }
+            },
+            "fileName": "plenty_to_play_with.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "id": "32t0ODnj9qYGabVmGKacYi",
+        "type": "Asset",
+        "createdAt": "2022-09-14T05:13:05.788Z",
+        "updatedAt": "2022-09-14T05:13:05.788Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "get your golf on"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/lwpe3gpbp67q/32t0ODnj9qYGabVmGKacYi/bff0ac41443381d645c5487eb45f3b5b/get_your_golf_on.jpg",
+            "details": {
+              "size": 3562635,
+              "image": {
+                "width": 6000,
+                "height": 4000
+              }
+            },
+            "fileName": "get_your_golf_on.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "7yE7b1TNYSLRlhc7UeV3QV",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "2e7e15ef-42bf-462c-830e-fff0697d4033"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7dRVfKdqcMHRYJwRaifUJn"
+          }
+        },
+        "createdAt": "2021-11-17T17:44:42Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7dRVfKdqcMHRYJwRaifUJn"
+          }
+        },
+        "updatedAt": "2021-11-17T17:44:42Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "7yF06NZy7KkcgZARKfGstv",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "lwpe3gpbp67q"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7dRVfKdqcMHRYJwRaifUJn"
+          }
+        },
+        "createdAt": "2021-11-17T17:44:42Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7dRVfKdqcMHRYJwRaifUJn"
+          }
+        },
+        "updatedAt": "2021-11-17T17:44:42Z"
+      }
+    }
+  ]
+}
